@@ -45,6 +45,14 @@ header {
   padding: 0;
 }
 
+.hero-top {
+  flex-grow: 1;
+  padding-top: 105px;
+  padding-right: 329px;
+  padding-bottom: 111px;
+  padding-left: 401px;
+}
+
 .email {
   margin-right: 48px;
 }
@@ -136,6 +144,7 @@ h2 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--font-color-light);
+  margin: 0;
 }
 
 .hero {
