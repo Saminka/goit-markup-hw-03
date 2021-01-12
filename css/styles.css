@@ -53,8 +53,21 @@ header {
   padding-left: 401px;
 }
 
+/* .container-hero {
+  width: 1200px;
+}
+*/
+
 .email {
   margin-right: 48px;
+}
+
+.all-container {
+  width: 1230px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list-no-style-address {
@@ -174,6 +187,8 @@ h2 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--font-main-color);
+
+  margin-top: 63px;
 }
 
 .advantages {
