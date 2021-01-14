@@ -105,6 +105,7 @@ h2,
 h3,
 h4 {
   font-family: var(--font-main);
+  padding: 0;
 }
 
 h2 {
@@ -361,7 +362,7 @@ button:hover {
 /*  ===== Наша команда ===== */
 
 .team {
-  padding-top: 186px;
+  padding-top: 0;
   padding-bottom: 94px;
 }
 
