@@ -113,8 +113,8 @@ h2 {
 }
 
 .footer {
-  padding-top: 58px;
-  padding-bottom: 163px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   color: var(--font-second-color);
 }
 /* ===== /Общие настройки ===== */
@@ -419,10 +419,16 @@ button:hover {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--font-color-light);
+  padding-bottom: 9px;
 }
 
 .footer {
   background-color: #2f303a;
+}
+
+.padding-email {
+  display: inline-block;
+  padding-top: 9px;
 }
 
 .footer li a:hover,
@@ -448,5 +454,7 @@ button:hover {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--font-color-light);
+  display: inline-block;
+  padding-bottom: 20px;
 }
 /* ===== /Футер ===== */
