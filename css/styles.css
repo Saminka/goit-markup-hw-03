@@ -34,6 +34,10 @@ header {
   padding: 32px 0;
 }
 
+.link-color {
+  color: var(--font-second-color);
+}
+
 .list-margin-style:not(:last-child) {
   margin-right: 50px;
 }
