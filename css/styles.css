@@ -62,8 +62,15 @@ nav .link {
 }
 
 .hero-top {
+  width: 696px;
+  margin: 0 auto;
   flex-grow: 1;
   padding: 0;
+}
+
+.hero .modal-open-btn {
+  display: inline-flex;
+  margin-top: 30px;
 }
 
 /* .container-hero {
@@ -219,7 +226,7 @@ h2 {
   text-transform: uppercase;
   color: var(--font-main-color);
 
-  margin-top: 63px;
+  padding-top: 63px;
 }
 
 .advantages {
@@ -230,6 +237,9 @@ h2 {
   color: var(--font-third-color);
 }
 
+.advantages {
+  margin-bottom: 0;
+}
 /* ===== /Преимущества ===== */
 
 /* ===== Чем мы занимаемся ==== */
@@ -247,6 +257,7 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--font-main-color);
   text-align: center;
+  margin-top: 0;
 }
 
 .projects-flex {
@@ -392,6 +403,7 @@ button:hover {
   letter-spacing: 0.03em;
   color: var(--font-main-color);
   text-align: center;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
