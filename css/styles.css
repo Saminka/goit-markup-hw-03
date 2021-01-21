@@ -194,7 +194,8 @@ h2 {
 
 .advantages-padding {
   padding-top: 0;
-  padding-bottom: 94px;
+  padding-top: 63px;
+  margin-bottom: 94px;
 }
 
 .advantages-li:not(:first-child) {
@@ -225,8 +226,9 @@ h2 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--font-main-color);
-
-  padding-top: 63px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 8px;
 }
 
 .advantages {
@@ -332,8 +334,10 @@ h2 {
   color: var(--font-main-color);
 }
 
-button:hover {
+button:hover,
+button:focus {
   background-color: var(--font-second-color);
+  color: white;
 }
 
 /* ===== Портфолио карточки ===== */
@@ -357,6 +361,21 @@ button:hover {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cards-style {
+  padding: 20px 24px 20px 24px;
+}
+
+.cards-style p {
+  margin: 0;
+}
+
+.cards-style h2 {
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .flex-container {
