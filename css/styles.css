@@ -23,6 +23,12 @@ body {
   font-style: normal;
 }
 
+body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .list-no-style {
   list-style: none;
   display: flex;
@@ -378,6 +384,12 @@ button:focus {
   margin-bottom: 4px;
 }
 
+.team .item {
+  border: 1px none #757575;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -433,9 +445,13 @@ button:focus {
   line-height: 1.187;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 10px;
+  margin: 0px 0px 10px 0px;
 
   color: var(--font-main-color);
+}
+
+.team-style {
+  padding: 20px 24px 20px 24px;
 }
 
 .team-flex {
@@ -460,6 +476,7 @@ button:focus {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--font-third-color);
+  margin: 0;
 }
 /*  ===== /Наша команда ===== */
 
